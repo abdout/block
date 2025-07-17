@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import AppSidebar from "@/components/dashboard/sidebar";
-import Navbar from "@/components/dashboard/navbar";
+// import Navbar from "@/components/dashboard/navbar";
 
 
 import { cookies } from "next/headers";
@@ -47,7 +47,7 @@ export default async function RootLayout({
           <SidebarProvider defaultOpen={defaultOpen}>
             <AppSidebar />
             <main className="w-full">
-              <Navbar />
+              {/* <Navbar /> */}
               <div className="px-4">{children}</div>
             </main>
           </SidebarProvider>
