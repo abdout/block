@@ -1,7 +1,6 @@
-export const dynamic = "force-dynamic";
-
 "use client";
 
+export const dynamic = "force-dynamic";
 import { useCurrentUser } from "@/components/auth/use-current-user";
 import { UserInfo } from "@/components/auth/user-info";
 
