@@ -1,8 +1,5 @@
-export const dynamic = "force-dynamic";
-
 "use client";
-
-
+export const dynamic = "force-dynamic";
 import { admin } from "@/components/auth/admin-action";
 import { FormSuccess } from "@/components/auth/form-success";
 import { RoleGate } from "@/components/auth/role-gate";
